@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F8D3B1A4C2E1100A0010001 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6F8D3B1A4C2E1100A0010003 /* FirebaseCore */; };
+		6F8D3B1A4C2E1100A0010002 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 6F8D3B1A4C2E1100A0010004 /* FirebaseDatabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A7917BD2F391C5A000E1B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7917A72F391C59000E1B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7917AE2F391C59000E1B7F;
+			remoteInfo = SudokuBattleApp;
+		};
+		1A7917C72F391C5B000E1B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7917A72F391C59000E1B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7917AE2F391C59000E1B7F;
+			remoteInfo = SudokuBattleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A7917AF2F391C59000E1B7F /* SudokuBattleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudokuBattleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7917BC2F391C5A000E1B7F /* SudokuBattleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudokuBattleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7917C62F391C5B000E1B7F /* SudokuBattleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudokuBattleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A791A1F2F4276A2000E1B7F /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1A7917B12F391C59000E1B7F /* SudokuBattleApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SudokuBattleApp;
+			sourceTree = "<group>";
+		};
+		1A7917BF2F391C5A000E1B7F /* SudokuBattleAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SudokuBattleAppTests;
+			sourceTree = "<group>";
+		};
+		1A7917C92F391C5B000E1B7F /* SudokuBattleAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SudokuBattleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A7917AC2F391C59000E1B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8D3B1A4C2E1100A0010002 /* FirebaseDatabase in Frameworks */,
+				6F8D3B1A4C2E1100A0010001 /* FirebaseCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7917B92F391C5A000E1B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7917C32F391C5B000E1B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A7917A62F391C59000E1B7F = {
+			isa = PBXGroup;
+			children = (
+				1A791A1F2F4276A2000E1B7F /* Untitled.swift */,
+				1A7917B12F391C59000E1B7F /* SudokuBattleApp */,
+				1A7917BF2F391C5A000E1B7F /* SudokuBattleAppTests */,
+				1A7917C92F391C5B000E1B7F /* SudokuBattleAppUITests */,
+				1A7917B02F391C59000E1B7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A7917B02F391C59000E1B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A7917AF2F391C59000E1B7F /* SudokuBattleApp.app */,
+				1A7917BC2F391C5A000E1B7F /* SudokuBattleAppTests.xctest */,
+				1A7917C62F391C5B000E1B7F /* SudokuBattleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A7917AE2F391C59000E1B7F /* SudokuBattleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7917D02F391C5B000E1B7F /* Build configuration list for PBXNativeTarget "SudokuBattleApp" */;
+			buildPhases = (
+				1A7917AB2F391C59000E1B7F /* Sources */,
+				1A7917AC2F391C59000E1B7F /* Frameworks */,
+				1A7917AD2F391C59000E1B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1A7917B12F391C59000E1B7F /* SudokuBattleApp */,
+			);
+			name = SudokuBattleApp;
+			packageProductDependencies = (
+				6F8D3B1A4C2E1100A0010003 /* FirebaseCore */,
+				6F8D3B1A4C2E1100A0010004 /* FirebaseDatabase */,
+			);
+			productName = SudokuBattleApp;
+			productReference = 1A7917AF2F391C59000E1B7F /* SudokuBattleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A7917BB2F391C5A000E1B7F /* SudokuBattleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7917D32F391C5B000E1B7F /* Build configuration list for PBXNativeTarget "SudokuBattleAppTests" */;
+			buildPhases = (
+				1A7917B82F391C5A000E1B7F /* Sources */,
+				1A7917B92F391C5A000E1B7F /* Frameworks */,
+				1A7917BA2F391C5A000E1B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7917BE2F391C5A000E1B7F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1A7917BF2F391C5A000E1B7F /* SudokuBattleAppTests */,
+			);
+			name = SudokuBattleAppTests;
+			packageProductDependencies = (
+			);
+			productName = SudokuBattleAppTests;
+			productReference = 1A7917BC2F391C5A000E1B7F /* SudokuBattleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A7917C52F391C5B000E1B7F /* SudokuBattleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7917D62F391C5B000E1B7F /* Build configuration list for PBXNativeTarget "SudokuBattleAppUITests" */;
+			buildPhases = (
+				1A7917C22F391C5B000E1B7F /* Sources */,
+				1A7917C32F391C5B000E1B7F /* Frameworks */,
+				1A7917C42F391C5B000E1B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7917C82F391C5B000E1B7F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1A7917C92F391C5B000E1B7F /* SudokuBattleAppUITests */,
+			);
+			name = SudokuBattleAppUITests;
+			packageProductDependencies = (
+			);
+			productName = SudokuBattleAppUITests;
+			productReference = 1A7917C62F391C5B000E1B7F /* SudokuBattleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A7917A72F391C59000E1B7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					1A7917AE2F391C59000E1B7F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					1A7917BB2F391C5A000E1B7F = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 1A7917AE2F391C59000E1B7F;
+					};
+					1A7917C52F391C5B000E1B7F = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 1A7917AE2F391C59000E1B7F;
+					};
+				};
+			};
+			buildConfigurationList = 1A7917AA2F391C59000E1B7F /* Build configuration list for PBXProject "SudokuBattleApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A7917A62F391C59000E1B7F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1A7919002F3D5217000E1B7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1A7917B02F391C59000E1B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A7917AE2F391C59000E1B7F /* SudokuBattleApp */,
+				1A7917BB2F391C5A000E1B7F /* SudokuBattleAppTests */,
+				1A7917C52F391C5B000E1B7F /* SudokuBattleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A7917AD2F391C59000E1B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7917BA2F391C5A000E1B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7917C42F391C5B000E1B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A7917AB2F391C59000E1B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7917B82F391C5A000E1B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7917C22F391C5B000E1B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A7917BE2F391C5A000E1B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7917AE2F391C59000E1B7F /* SudokuBattleApp */;
+			targetProxy = 1A7917BD2F391C5A000E1B7F /* PBXContainerItemProxy */;
+		};
+		1A7917C82F391C5B000E1B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7917AE2F391C59000E1B7F /* SudokuBattleApp */;
+			targetProxy = 1A7917C72F391C5B000E1B7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A7917CE2F391C5B000E1B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A7917CF2F391C5B000E1B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A7917D12F391C5B000E1B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.2;
+				DEVELOPMENT_TEAM = WWCP7EXQXT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sudoku Areana";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIAppFonts = "Resources/Fonts/Vonique 64.ttf";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mays-Home.SudokuBattleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A7917D22F391C5B000E1B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.2;
+				DEVELOPMENT_TEAM = WWCP7EXQXT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sudoku Areana";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIAppFonts = "Resources/Fonts/Vonique 64.ttf";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mays-Home.SudokuBattleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A7917D42F391C5B000E1B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mays-Home.SudokuBattleAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SudokuBattleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SudokuBattleApp";
+			};
+			name = Debug;
+		};
+		1A7917D52F391C5B000E1B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mays-Home.SudokuBattleAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SudokuBattleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SudokuBattleApp";
+			};
+			name = Release;
+		};
+		1A7917D72F391C5B000E1B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mays-Home.SudokuBattleAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SudokuBattleApp;
+			};
+			name = Debug;
+		};
+		1A7917D82F391C5B000E1B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mays-Home.SudokuBattleAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SudokuBattleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A7917AA2F391C59000E1B7F /* Build configuration list for PBXProject "SudokuBattleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7917CE2F391C5B000E1B7F /* Debug */,
+				1A7917CF2F391C5B000E1B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7917D02F391C5B000E1B7F /* Build configuration list for PBXNativeTarget "SudokuBattleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7917D12F391C5B000E1B7F /* Debug */,
+				1A7917D22F391C5B000E1B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7917D32F391C5B000E1B7F /* Build configuration list for PBXNativeTarget "SudokuBattleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7917D42F391C5B000E1B7F /* Debug */,
+				1A7917D52F391C5B000E1B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7917D62F391C5B000E1B7F /* Build configuration list for PBXNativeTarget "SudokuBattleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7917D72F391C5B000E1B7F /* Debug */,
+				1A7917D82F391C5B000E1B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A7919002F3D5217000E1B7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F8D3B1A4C2E1100A0010003 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A7919002F3D5217000E1B7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		6F8D3B1A4C2E1100A0010004 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A7919002F3D5217000E1B7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1A7917A72F391C59000E1B7F /* Project object */;
+}

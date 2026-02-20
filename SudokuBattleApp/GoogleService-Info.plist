@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBNOkHCUeG3XI7fIBBrlCpcBz6J8Ds7tOQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>163925742881</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Mays-Home.SudokuBattleApp</string>
+	<key>PROJECT_ID</key>
+	<string>sudoku-arena-281ee</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sudoku-arena-281ee.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:163925742881:ios:d281dec7b686408f64da60</string>
+</dict>
+</plist>

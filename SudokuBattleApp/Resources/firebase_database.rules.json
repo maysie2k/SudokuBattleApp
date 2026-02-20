@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "arenaQueue": {
+      ".read": true,
+      ".write": true
+    },
+    "matches": {
+      "$matchId": {
+        ".read": true,
+        ".write": true
+      }
+    }
+  }
+}
